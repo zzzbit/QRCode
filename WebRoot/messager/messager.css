@@ -1,0 +1,22 @@
+.d_messager_m{
+position:fixed;left:0px;top:0px;opacity:0.3;filter:alpha(opacity=30);background-color:gray;
+}
+.d_messager_msg{
+line-height:30px;margin:0px auto;border:3px solid #666666;background-color:white;position:absolute;
+filter:progid:DXImageTransform.Microsoft.Glow(color=#000000,Strength=4);
+}
+.d_messager_msg *{font-size:12px;}
+.d_messager_msg font{line-height:60px}
+.d_messager_msg div.messager_title{
+height:30px;background-color:#ff7900;color:white;
+}
+.d_messager_msg .img_alert{
+width:50px;height:50px;background-image:url(alert.gif);float:left;margin:5px;
+}
+.d_messager_msg .img_help{
+width:50px;height:50px;background-image:url(help.gif);float:left;margin:5px;
+}
+
+.d_messager_msg input{
+width:65px;height:25px;background-image:url(btn.jpg);border:0px;margin-right:10px
+}
